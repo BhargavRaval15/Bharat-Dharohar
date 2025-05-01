@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { featuredItems } from '@/components/FeaturedSection';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://bharat-dharohar.onrender.com/api';
 
 // Create axios instance with default config
 const api = axios.create({
