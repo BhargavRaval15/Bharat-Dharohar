@@ -8,6 +8,10 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    strictPort: true,
+    // This ensures that the history API fallback is enabled, supporting React Router
+    open: true,
+    historyApiFallback: true,
   },
   plugins: [
     react(),

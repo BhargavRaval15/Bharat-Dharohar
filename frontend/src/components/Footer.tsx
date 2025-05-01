@@ -35,30 +35,16 @@ const Footer = () => {
             <h4 className="font-bold text-lg mb-4">Explore</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
+                <a href="/explore" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
                   Cultural Map
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
+                <a href="/festivals" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
                   Festival Calendar
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
-                  Traditional Arts
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
-                  Heritage Sites
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
-                  Culinary Traditions
-                </a>
-              </li>
+             
             </ul>
           </div>
 
@@ -67,30 +53,17 @@ const Footer = () => {
             <h4 className="font-bold text-lg mb-4">Resources</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
+                <a href="/about" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
-                  Preservation Efforts
+                <a href="/explore" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
+                  Heritage Sites
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
-                  Educational Resources
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
-                  Community Guidelines
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
-                  Privacy Policy
-                </a>
-              </li>
+            
+               
             </ul>
           </div>
 

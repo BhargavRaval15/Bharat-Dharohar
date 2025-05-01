@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Dashboard from "./pages/Dashboard";
-import AboutUs from "./pages/NotFound";
+import AboutUs from "./pages/AboutUs";
 import ProtectedRoute from "./components/ProtectedRoute";
 import NotFound from "./pages/NotFound";
 import ExplorePage from "./pages/Explore";
@@ -17,6 +17,9 @@ import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import ForgotPassword from "./pages/ForgotPassword";
 import FestivalCalendar from "./pages/FestivalCalendar";
+import Stories from "./pages/Stories";
+import StoryDetail from "./pages/StoryDetail";
+import TestPage from "./pages/TestPage";
 
 // Create a client
 const queryClient = new QueryClient();
@@ -48,6 +51,9 @@ const App = () => (
           <Route path="/explore" element={<ExplorePage />} />
           <Route path="/heritage/:id" element={<HeritageDetail />} />
           <Route path="/community" element={<Community />} />
+          <Route path="/stories" element={<Stories />} />
+          <Route path="/stories/:id" element={<StoryDetail />} />
+          <Route path="/test" element={<TestPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
