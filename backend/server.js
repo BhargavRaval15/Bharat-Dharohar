@@ -16,6 +16,7 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'http://localhost:3000',
+    'http://localhost:8080',
     'https://cultural-canvas.netlify.app', // Netlify domain - update this to your actual domain
   ],
   credentials: true
@@ -28,7 +29,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 // MongoDB Connection
 mongoose
   .connect(
-    process.env.MONGODB_URI || "mongodb://localhost:27017/cultural-canvas"
+    process.env.MONGODB_URI
   )
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("MongoDB connection error:", err));
