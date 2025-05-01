@@ -11,8 +11,15 @@ dotenv.config();
 
 const app = express();
 
-// Middleware
-app.use(cors());
+// CORS configuration with allowed origins
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'http://localhost:3000',
+    'https://cultural-canvas.netlify.app', // Netlify domain - update this to your actual domain
+  ],
+  credentials: true
+}));
 app.use(express.json());
 
 // Serve uploaded files
