@@ -17,7 +17,7 @@ app.use(cors({
     'http://localhost:5173',
     'http://localhost:3000',
     'http://localhost:8080',
-    'https://cultural-canvas.netlify.app', // Netlify domain - update this to your actual domain
+    'https://bharatdharohar.netlify.app/'
   ],
   credentials: true
 }));
