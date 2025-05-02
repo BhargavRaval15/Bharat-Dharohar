@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://bharat-dharohar.onrender.com/api/community";
+const API_URL = "http://localhost:5000/api/community";
 
 export const communityService = {
   // Get all posts with optional type filter

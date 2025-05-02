@@ -17,7 +17,9 @@ const transporter = nodemailer.createTransport({
  * @param {string} username - username of recipient
  */
 const sendVerificationEmail = async (to, token, username) => {
-  const verificationUrl = `${"https://bharatdharohar.netlify.app/"}/verify-email?token=${token}`;
+  const verificationUrl = `${
+    process.env.FRONTEND_URL || "http://localhost:8080"
+  }/verify-email?token=${token}`;
 
   const mailOptions = {
     from: process.env.EMAIL_USER,
