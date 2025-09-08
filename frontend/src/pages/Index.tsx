@@ -141,53 +141,6 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Stories Section */}
-      <section className="py-20 px-4 bg-white dark:bg-gray-950">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <span className="inline-block px-3 py-1 rounded-full border border-primary/20 bg-primary/5 text-primary text-sm font-medium mb-2">
-              Cultural Narratives
-            </span>
-            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">Discover Stories</h2>
-            <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Immerse yourself in the rich tapestry of stories that have shaped Indian culture through the ages.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div className="space-y-6 order-2 md:order-1">
-              <h3 className="text-2xl font-serif font-bold heading-decoration">Tales from Ancient India</h3>
-              <p className="text-gray-600 dark:text-gray-300">
-                India's storytelling tradition spans thousands of years, from the ancient epics of Ramayana and Mahabharata to folk tales passed down through generations. These stories have shaped values, traditions, and cultural identity.
-              </p>
-              <p className="text-gray-600 dark:text-gray-300">
-                Explore our collection of stories from mythology, history, and cultural heritage that continue to inspire and educate people around the world.
-              </p>
-              <div className="pt-4">
-                <button 
-                  onClick={() => navigateTo('/stories')} 
-                  className="px-6 py-2.5 border-2 border-primary text-primary hover:bg-primary hover:text-white rounded-lg font-medium transition-colors"
-                >
-                  Discover Stories
-                </button>
-                <button 
-                  onClick={() => navigateTo('/test')} 
-                  className="ml-4 px-6 py-2.5 border-2 border-primary text-primary hover:bg-primary hover:text-white rounded-lg font-medium transition-colors"
-                >
-                  Test Page
-                </button>
-              </div>
-            </div>
-            <div className="animated-border p-6 order-1 md:order-2">
-              <img 
-                src="https://5.imimg.com/data5/ZV/EY/HL/ANDROID-79631889/product-jpeg-500x500.jpg" 
-                alt="Traditional Indian Storytelling" 
-                className="rounded-lg shadow-lg w-full h-[400px] object-cover"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
       
       {/* Quote Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-saffron/5 to-india-green/5">
